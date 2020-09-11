@@ -11,6 +11,7 @@ import Header from './components/Header';
 import Home from './pages/home/Index';
 import Registration from './pages/auth/Register';
 import AddQuiz from './pages/quiz/AddQuiz';
+import Results from './pages/result/Result';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
                 </Route>
                 <Route path="/add-quiz">
                     <AddQuiz />
+                </Route>
+                <Route path="/results">
+                    <Results />
                 </Route>
             </Switch>
         </Router>

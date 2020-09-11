@@ -32,6 +32,7 @@ const Example = () => {
             loggedInUser &&
             <Link to="/add-quiz" className="px-2">Add Quiz</Link>
           }
+          <Link to="/results" className="px-2">Results</Link>
       </Row>
     </Container>
   );
